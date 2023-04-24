@@ -1,0 +1,45 @@
+.hidden {
+  display: none;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#greeting {
+  color: beige;
+}
+
+#todo-list {
+  list-style: none;
+  color: beige;
+}
+
+#quote {
+  color: white;
+  font-size: 20px;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
+
+#weather {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 50%;
+  }
+}
