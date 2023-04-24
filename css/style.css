@@ -8,8 +8,13 @@ body {
   padding-top: 20px;
 }
 
+#clock {
+  color: white;
+}
+
 #greeting {
   color: beige;
+  font-size: 35px;
 }
 
 #todo-list {
@@ -36,6 +41,7 @@ img {
 
 #weather {
   color: white;
+
 }
 
 @media (max-width: 768px) {
